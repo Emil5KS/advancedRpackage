@@ -1,0 +1,12 @@
+Package: Chiliconcarne
+Type: Package
+Title: Computes The Greatest Common Devisor
+Version: 1.0
+Date: 2016-09-12
+Author: Emil Klasson Svensson [aut,cre] Anton Persson [aut,cre]
+Maintainer: Emil Klasson Svensson <emisv463@student.liu.se>
+Description: Computes the greatest common devisor of two numeric integers via
+    the Euclidian algorithm. The implementation is division based and uses the
+    modulus function.
+License: CC-by
+RoxygenNote: 5.0.1
