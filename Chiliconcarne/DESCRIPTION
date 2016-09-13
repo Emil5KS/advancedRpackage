@@ -10,3 +10,4 @@ Description: Computes the greatest common devisor of two numeric integers via
     modulus function.
 License: CC-by
 RoxygenNote: 5.0.1
+LazyData: true
