@@ -32,7 +32,8 @@
 
 euclidian<-function(s, b){
   
-  try(if(!is.numeric(x)) stop("Is not numeric"))
+  try(if(!is.numeric(s)) stop("s is not numeric"))
+  try(if(!is.numeric(b)) stop("b is not numeric"))
   
   try(if(length(s)>1) stop("Scalar values only accepted"))
   try(if(length(s)<1) stop("Scalar values only accepted"))
