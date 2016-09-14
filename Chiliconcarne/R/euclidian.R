@@ -32,6 +32,13 @@
 
 euclidian<-function(s, b){
   
+  try(if(!is.numeric(x)) stop("Is not numeric"))
+  
+  try(if(length(s)>1) stop("Scalar values only accepted"))
+  try(if(length(s)<1) stop("Scalar values only accepted"))
+  try(if(length(b)>1) stop("Scalar values only accepted"))
+  try(if(length(b)<1) stop("Scalar values only accepted"))
+  
   if((!s %% 1 == 0) || (!b %% 1 == 0 )){
     stop("Your numbers have to be integers!")
     }
