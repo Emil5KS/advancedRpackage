@@ -4,6 +4,6 @@
 #'
 #'
 #'
-#'@docType package 
-#'@name Chiliconcarne
+#' @docType package 
+#' @name Chiliconcarne
 NULL

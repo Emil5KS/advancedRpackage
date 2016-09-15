@@ -40,6 +40,9 @@ euclidian<-function(s, b){
   if(length(b)>1) stop("Scalar values only accepted")
   if(length(b)<1) stop("Scalar values only accepted")
   
+  if(s<1) stop("s has to be a positive integer")
+  if(b<1) stop("b has to be a positive interger")
+  
   if((!s %% 1 == 0) || (!b %% 1 == 0 )){
     stop("Your numbers have to be integers!")
     }
